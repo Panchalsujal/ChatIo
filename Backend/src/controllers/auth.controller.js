@@ -39,6 +39,7 @@ export async function register(req, res) {
                 <p>Thank you for registering at <strong>ChatIo</strong>. We're excited to have you on board!</p>
                 <p>Please verify your email address by clicking the link below:</p>
                 <a href="http://localhost:3000/api/auth/verify-email?token=${emailVerificationToken}">Verify Email</a>
+                <p>check spam folder if you don't see the email in your inbox.</p>
                 <p>If you did not create an account, please ignore this email.</p>
                 <p>Best regards,<br>The ChatIo Team</p>
         `
