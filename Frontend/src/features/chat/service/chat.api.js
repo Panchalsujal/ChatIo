@@ -1,7 +1,7 @@
 import Axios from "axios";
 
 const api = Axios.create({
-  baseURL: "http://localhost:3000",
+  baseURL: "https://chatio-backend-mq6n.onrender.com",
   withCredentials: true,
 });
 
