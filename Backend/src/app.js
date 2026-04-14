@@ -6,6 +6,7 @@ import morgan from "morgan";
 import cors from "cors";
 
 const app = express();
+app.set("trust proxy", 1);
 
 // Middleware
 app.use(express.json());
